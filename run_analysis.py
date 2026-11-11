@@ -15,7 +15,7 @@ from sklearn.metrics import (
 )
 
 # 0. Setup and Paths
-BASE_DIR = r"C:\Users\Lenovo\Desktop\Vize_Sinavi"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FIG_DIR = os.path.join(BASE_DIR, "figures")
 os.makedirs(FIG_DIR, exist_ok=True)
 
